@@ -49,3 +49,41 @@ tl.to("#box3",{
     duration:2.5,
     rotate:-360
 })
+
+
+
+// gsap scroll trigger
+
+gsap.from("#page1 #ox",{
+    scale:0,
+    duration:1,
+    
+    rotate:360
+})
+gsap.from("#page2 #ox",{
+    scale:0,
+    duration:1,
+    rotate:360,
+    scrollTrigger:{
+        trigger:"#page2 #ox",
+        scroller:'body',
+        markers:true,
+        start:'top 50%',
+        end : 'top 30%',
+        scrub:2
+    }
+})
+
+gsap.to('#page3 #ox',{
+    x:600,
+    duration:2,
+    scrollTrigger:{
+        trigger:'#page3 #ox',
+        scroll:'body',
+        markers:true,
+        start:"top 60%",
+        end:"top 30%",
+        scrub:true,
+        pin:true
+    }
+})
