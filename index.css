@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:seashell;
+    padding: 20px;
+  
+}
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: lavender;
+    border-radius: 10px;
+    position: absolute; */
+
+    /* animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out; */
+/* } */
+
+
+/* @keyframes move {
+    0%{
+        left: 0;
+       
+        background-color: lavender;
+       
+    }
+    100%{
+        left: 70%;
+       
+        background-color: greenyellow;
+    }
+} */
+
+
+
+
+#circle{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    background-color: royalblue;
+    border-radius: 50%;
+}
+
+
+/* timeline */
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: rosybrown;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
